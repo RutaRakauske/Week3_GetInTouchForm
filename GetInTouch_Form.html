@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get in touch form</title>
+    <link rel="stylesheet" href="./formStyle.css">
 </head>
 <body>
-    
+    <form action="./pridavimas.html">
+        <span>Get In Touch</span>
+        <div>
+            <input required type="text" placeholder="First Name" name="firstName" class="names"/>
+            <input required type="text" placeholder="Last Name" name="lastName" class="names"/>
+        </div>
+        <div>
+            <input required type="email" placeholder="Email" name="email" class="contact"/>
+            <input required type="tel" placeholder="Phone" name="tel" class="contact"/>
+        </div>
+        <div>
+            <input required type="address" placeholder="Address" name="address" class="address"/>
+        </div>
+        <div>
+            <textarea required placeholder="Type your message here" name="message" rows="6" cols="44" ></textarea>
+        </div>
+        <div class="submitButton">
+            <button>Submit</button>
+        </div>
+        <p>Thanks for submitting!</p>
+    </form>
+
 </body>
 </html>
